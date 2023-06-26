@@ -1,0 +1,40 @@
+*{
+    text-decoration: none;
+
+}
+.navbar{
+    background:  rgba(0,0,0,0.5);font-family:calibri;padding-right: 15px; padding-left: 15px;
+
+
+}
+.navdiv{
+    display:flex;align-items:center; justify-content: space-between;
+}
+.logo a{
+    font-size: 35px; font-weight: 600; color: #ddd;
+
+}
+li{
+    list-style: none; 
+    display: inline-block;
+}
+li a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+
+}
+.img {
+    float: left;
+    width: 60vw;
+    border: 1px solid black;
+    margin-top: 5px;
+
+}
+.para {
+    float: left;
+    width: 40vw;
+    border: 1px solid black;
+    margin-top: 5px;
+}

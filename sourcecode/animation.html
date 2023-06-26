@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      
+            h1{
+                position: relative;
+                top: 0px;
+                left: 0px;
+                width: 5%;             
+                display: block;
+                background-image:url(../pictures/summercampbackground.jpg);
+                background-color: rgb(217, 193, 56);
+                animation-name: colorchanginganimation;
+                animation-duration:3s;
+                color:white;
+            }
+            @keyframes colorchanginganimation{
+                from{
+                    background-color: black;
+                    width:100px;
+                    top: 10%;
+                    left:10%;
+                    border-bottom-right: 10%;
+
+                }
+                25%{
+                    background-color: aqua;
+                    width:250px;
+                    top: 25%;
+                    left:50%;
+                }
+                50%{
+                    background-color: blueviolet;
+                    width:100px;
+                    top:50%
+                }
+            }
+        
+    </style>
+</head>
+<body>
+   <h1>animations in css</h1> 
+</body>
+</html>
