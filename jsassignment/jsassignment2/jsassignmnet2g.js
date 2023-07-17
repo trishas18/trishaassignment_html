@@ -1,4 +1,5 @@
 //2g)create  an array of numbers by taking input from the user till user enters 0 and then display the array
+const prompt = require("prompt-sync")({ sigint: true });
 const numbers = [];
 
 while (true) {

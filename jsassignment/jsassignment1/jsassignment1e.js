@@ -1,5 +1,5 @@
 // program to check if a number is prime or not
-
+const prompt = require("prompt-sync")({ sigint: true });
 // take input from the user
 const number = parseInt(prompt("Enter a positive number: "));
 let isPrime = true;

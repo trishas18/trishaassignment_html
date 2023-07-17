@@ -1,4 +1,5 @@
 //write a function to accept 3 numeric values and return average of those numbers
+const prompt = require("prompt-sync")({ sigint: true });
 function calculateAverage(num1, num2, num3) {
     var sum = num1 + num2 + num3;
     var average = sum / 3;
