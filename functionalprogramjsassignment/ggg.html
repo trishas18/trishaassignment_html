@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Keyboard Events Example</title>
+</head>
+<body>
+
+<h2>Keyboard Events</h2>
+<p>Try pressing, holding, and releasing keys on your keyboard.</p>
+
+<script>
+    // Function to handle keydown event
+    function handleKeyDown(event) {
+        document.getElementById("keydown").innerHTML = `Key Down: ${event.key}`;
+    }
+
+    // Function to handle keyup event
+    function handleKeyUp(event) {
+        document.getElementById("keyup").innerHTML = `Key Up: ${event.key}`;
+    }
+
+    // Function to handle keypress event
+    function handleKeyPress(event) {
+        document.getElementById("keypress").innerHTML = `Key Press: ${event.key}`;
+    }
+
+    // Attach event listeners
+    document.addEventListener("keydown", handleKeyDown);
+    document.addEventListener("keyup", handleKeyUp);
+    document.addEventListener("keypress", handleKeyPress);
+</script>
+
+<p><strong>Key Down:</strong> <span id="keydown"></span></p>
+<p><strong>Key Up:</strong> <span id="keyup"></span></p>
+<p><strong>Key Press:</strong> <span id="keypress"></span></p>
+
+</body>
+</html>
+Copy and paste this code into an HTML file and open it in a web browser. It will display the key events (keydown, keyup, and keypress) along with the corresponding key values as you interact with the keyboard.
+
+
+
+
+
